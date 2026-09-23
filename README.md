@@ -18,7 +18,7 @@ source venv/bin/activate      # Windows: venv\Scripts\activate
 pip install -r requirements.txt
 cp .env.example .env          # then fill in your real Azure values
 streamlit run app.py
-```
+``` 
 
 Open http://localhost:8501
 
