@@ -4,8 +4,8 @@ AI-103 team project. Extracts resume text with Azure AI Document Intelligence,
 analyzes it with Azure AI Language (key phrases, entities, PII redaction,
 sentiment, language detection, abstractive summarization), scores it against
 an optional job description with local TF-IDF cosine similarity, and stores
-every analysis in Azure Blob Storage. Runs as a Streamlit web app, hosted on
-Azure App Service.
+every analysis in Azure Blob Storage. Runs as a Streamlit web app,hosted on
+Azure App Services.
 
 Full step-by-step Azure setup and deployment instructions are in the project
 guide document — this repo is just the application code.
@@ -50,3 +50,4 @@ python -m streamlit run app.py --server.port 8000 --server.address 0.0.0.0
 - Azure AI Language (Standard S — required for summarization)
 - Azure Storage Account with a private `resumes` Blob container
 - Azure App Service (Basic B1 recommended for a stable demo)
+
