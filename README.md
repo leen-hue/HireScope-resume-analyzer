@@ -8,7 +8,7 @@ every analysis in Azure Blob Storage. Runs as a Streamlit web app,hosted on
 Azure App Services.
 
 Full step-by-step Azure setup and deployment instructions are in the project
-guide document — this repo is just the application code.
+guide document — this repo is just the application codes.
 
 ## Local setup
 
